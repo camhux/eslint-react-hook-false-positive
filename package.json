@@ -1,0 +1,22 @@
+{
+  "name": "eslint-react-hook-false-positive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:camhux/eslint-react-hook-false-positive.git",
+  "author": "Cameron Martin <ccmartin@twitch.tv>",
+  "license": "MIT",
+  "scripts": {
+    "repro": "eslint -c .eslintrc.js repro.tsx"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/eslint-parser": "^7.13.14",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "typescript": "^3.8"
+  },
+  "dependencies": {
+    "react": "^16.14.0"
+  }
+}
