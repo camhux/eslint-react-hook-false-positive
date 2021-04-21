@@ -6,7 +6,7 @@
   "author": "Cameron Martin <ccmartin@twitch.tv>",
   "license": "MIT",
   "scripts": {
-    "repro": "eslint -c .eslintrc.js repro.tsx"
+    "repro": "yarn -s && eslint -c .eslintrc.js repro.tsx"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
