@@ -7,7 +7,7 @@ export function BadHookLint() {
     useEffect(() => {}, []);
 
     if (condition) {
-      return true;
+      return;
     }
 
     a?.b ?? null;
@@ -36,6 +36,4 @@ export function BadHookLint() {
     a?.b ?? null;
     a?.b ?? null;
     a?.b ?? null;
-
-    return <></>;
   }
